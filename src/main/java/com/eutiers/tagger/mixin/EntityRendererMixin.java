@@ -30,7 +30,7 @@ public class EntityRendererMixin {
         Text original = cir.getReturnValue();
         if (original == null) return;
 
-        String name = player.getGameProfile().getName();
+        String name = player.getGameProfile().name();
         if (name == null) return;
 
         PlayerTiers p = TierManager.INSTANCE.get(name);
