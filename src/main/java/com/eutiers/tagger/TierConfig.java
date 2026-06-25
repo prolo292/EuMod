@@ -15,7 +15,7 @@ import java.nio.file.Path;
 public class TierConfig {
 
     /** Public base URL of your Discord bot's web server (no trailing slash). */
-    public String baseUrl = "https://YOUR-BOT-URL.up.railway.app";
+    public String baseUrl = "http://eutierlist.hatenna.com:25332";
 
     /** Show the tier tag on the floating name above players' heads. */
     public boolean showOnNametags = true;
