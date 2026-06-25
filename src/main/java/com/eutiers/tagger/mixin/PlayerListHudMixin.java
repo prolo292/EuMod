@@ -21,7 +21,7 @@ public class PlayerListHudMixin {
         if (EuTiersClient.CONFIG == null || !EuTiersClient.CONFIG.showInTabList) return;
         if (entry == null || entry.getProfile() == null) return;
 
-        String name = entry.getProfile().getName();
+        String name = entry.getProfile().name();
         if (name == null) return;
 
         PlayerTiers p = TierManager.INSTANCE.get(name);
